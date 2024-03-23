@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>To-do App</title>
+        <script src="todo.js">
+        
+        </script>
+        
+    </head>
+    <body>
+        <div id="todoStyle">
+            <h2>Todo App</h2>
+            <div id="todoButton">
+                <label onclick="filterTodo('incomplete')"> Incompleted &nbsp&nbsp</label>
+                <label onclick="filterTodo('complete')"> completed &nbsp&nbsp</label>
+                <label onclick="filterTodo('all')"> All &nbsp&nbsp</label>
+            </div>
+            <button onclick="updateFrontend()">Mock</button>
+            <input id="todoInput" type="text">
+            <button onclick="addTodo()">Add new Todo</button>
+            <ul id="todoList">
+                <!-- <li>
+                    <input type="checkbox" onchange="onChecked">
+                </li> -->
+            </ul>
+        </div>
+    </body>
+</html>
